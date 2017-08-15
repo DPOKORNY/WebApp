@@ -1,0 +1,13 @@
+﻿
+@using DataAccess.Model
+
+@{
+    ViewBag.Title = "Index";
+    Book book = ViewBag.Kniha as Book;
+}
+
+<h1>Výpis knih</h1>
+
+<p>
+    Kniha: @book.Name,@book.Author,@book.PublishedYear
+</p>
