@@ -20,13 +20,11 @@ namespace WebApp.Controllers
             books.Add(new Book() { Author = "Ivana Leva", Name = "Siti", Id = 1, PublishedYear = 2016 });
 
 
-<<<<<<< Updated upstream
+
            
 
-            return View(book);
-=======
             return View(books);
->>>>>>> Stashed changes
+
         }
     }
 }
