@@ -15,8 +15,12 @@ namespace WebApp.Controllers
         {
             Book book = new Book() {Author="Dan Pokorný",Name="Kniha XY",Id=5,PublishedYear=2014 };
 
-            
-            return View();
+
+           
+
+            return View(book);
         }
     }
 }
+ 
+ 

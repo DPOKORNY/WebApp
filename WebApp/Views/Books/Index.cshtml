@@ -1,13 +1,15 @@
 ﻿
 @using DataAccess.Model
-
+@model Book
 @{
     ViewBag.Title = "Index";
-    Book book = ViewBag.Kniha as Book;
+   
 }
 
-<h1>Výpis knih</h1>
-
+<h1>
+    @Model.Name
+</h1>
+ 
 <p>
-    Kniha: @book.Name,@book.Author,@book.PublishedYear
+    @Model.Author
 </p>
