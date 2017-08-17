@@ -20,7 +20,7 @@ namespace WebApp.Controllers
             books.Add(new Book() { Author = "Ivana Leva", Name = "Siti", Id = 1, PublishedYear = 2016 });
 
 
-            return View();
+            return View(books);
         }
     }
 }
