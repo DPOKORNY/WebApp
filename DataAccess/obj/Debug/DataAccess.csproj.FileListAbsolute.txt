@@ -3,3 +3,7 @@ C:\Users\danpo\documents\visual studio 2017\Projects\WebApp\DataAccess\bin\Debug
 C:\Users\danpo\documents\visual studio 2017\Projects\WebApp\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\danpo\documents\visual studio 2017\Projects\WebApp\DataAccess\obj\Debug\DataAccess.dll
 C:\Users\danpo\documents\visual studio 2017\Projects\WebApp\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\danpo\Desktop\WebApp\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\danpo\Desktop\WebApp\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\danpo\Desktop\WebApp\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\danpo\Desktop\WebApp\DataAccess\obj\Debug\DataAccess.pdb
