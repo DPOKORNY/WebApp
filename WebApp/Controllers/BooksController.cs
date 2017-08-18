@@ -19,9 +19,10 @@ namespace WebApp.Controllers
             return View(Book.GetFakeList());
         }
         //LINQ z Listu
-        public ActionResult Detail(int id)
+        public ActionResult Detail(int id,bool? zobrazPopis)
         {
             Book b = (from Book book in Book.GetFakeList() where book.Id == id select book).FirstOrDefault();
+            ViewBag.ZobrazPopis = zobrazPopis;
             return View(b);
         }
     }

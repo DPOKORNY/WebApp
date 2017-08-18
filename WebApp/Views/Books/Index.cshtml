@@ -23,7 +23,7 @@
             <tr>
                 
                 <td><a href="@Url.Action("Detail","Books",new { id = b.Id })">@b.Id</a></td>
-                <td>@Html.ActionLink(b.Name,"Detail","Books",new { id = b.Id },new { title = b.Name })</td>
+                <td>@Html.ActionLink(b.Name,"Detail","Books",new { id = b.Id,zobrazPopis=true },new { title = b.Name })</td>
                 <td>@b.Author</td>
                 <td>@b.PublishedYear</td>
             </tr>

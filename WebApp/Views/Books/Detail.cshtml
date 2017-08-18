@@ -10,3 +10,14 @@
     Rok vydání: @Model.PublishedYear
 </p>
 
+@if (ViewBag.ZobrazPopis != null && ViewBag.ZobrazPopis==true)
+{
+    <p>
+        Bližší popis knihy ........
+    </p>
+}
+
+@section SideBar
+    {
+    <h4>Chcete knihu @Model.Name s 10% slevou?Objednejte nyní!!!!!</h4>
+    }
