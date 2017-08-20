@@ -174,3 +174,15 @@ h6, .h6 {
     .blog-footer p:last-child {
         margin-bottom: 0;
     }
+
+    input.input-validation-error{
+        background-color:aquamarine;
+    }
+
+    input.valid{
+        background-color:burlywood;
+    }
+
+    a.btn btn-default pull-right{
+        background-color:red;
+    }

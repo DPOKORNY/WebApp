@@ -33,8 +33,16 @@ namespace WebApp.Controllers
         [HttpPost]
         public ActionResult Add(Book book)
         {
-            book.Id = Books.Counter;
-            Books.GetFakeList().Add(book);
+            if (ModelState.IsValid)
+            {
+
+                book.Id = Books.Counter;
+                Books.GetFakeList().Add(book);
+            }
+            else
+            {
+                return View("Create", book);
+            }
             return RedirectToAction("Index");
         }
 
