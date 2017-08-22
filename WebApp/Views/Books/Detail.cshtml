@@ -10,6 +10,8 @@
     Rok vydání: @Model.PublishedYear
 </p>
 
+@Html.Raw(Model.Description)
+
 @if (ViewBag.ZobrazPopis != null && ViewBag.ZobrazPopis==true)
 {
     <p>

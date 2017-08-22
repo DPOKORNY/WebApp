@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Mvc;
 
 namespace DataAccess.Model
 {
@@ -18,8 +19,11 @@ namespace DataAccess.Model
         [Required(ErrorMessage = "Rok vydání je vyžadován")]
         [Range(1950,2100,ErrorMessage ="Rok může být od 1950-2100")]
         public int PublishedYear { get; set; }
+        [AllowHtml]
+        public string Description { get; set; }
 
-        
+
+        public string ImageName { get; set; }
 
     }
 }
