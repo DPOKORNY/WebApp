@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,5 +32,29 @@ namespace DataAccess.Model
             
         }
 
+        public static List<Book> GetBooksFromDb()
+        {
+            List<Book> books = new List<Book>();
+
+            string connectionString = @"Data Source=laptop-o1c21vmp\sqlexpress;Initial Catalog=Knihovna;Integrated Security=True";
+            SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+            SqlCommand command = new SqlCommand("SELECT * FROM book b join book_category c on b.category_id=c.id", connection);
+            using(SqlDataReader reader = command.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    
+                    Book b = new Book();
+                    b.Name = reader.GetString(1);
+                    b.Author = reader.GetString(2);
+                    b.Category = new BookCategory();
+                    b.Category.Name = reader.GetString(8);
+
+                    books.Add(b);
+                } 
+            }
+            return books;
+        }
     }
 }

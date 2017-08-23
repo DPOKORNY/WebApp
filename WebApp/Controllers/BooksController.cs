@@ -1,6 +1,7 @@
 ﻿using DataAccess.Model;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.Linq;
@@ -15,10 +16,10 @@ namespace WebApp.Controllers
         // GET: Books
         public ActionResult Index()
         {
-           
 
-
-            return View(Books.GetFakeList());
+            
+            
+            return View(Books.GetBooksFromDb());
         }
         //LINQ z Listu
         public ActionResult Detail(int id,bool? zobrazPopis)

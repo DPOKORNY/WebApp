@@ -7,7 +7,6 @@ C:\Users\danpo\Desktop\WebApp\DataAccess\bin\Debug\DataAccess.dll
 C:\Users\danpo\Desktop\WebApp\DataAccess\bin\Debug\DataAccess.pdb
 C:\Users\danpo\Desktop\WebApp\DataAccess\obj\Debug\DataAccess.dll
 C:\Users\danpo\Desktop\WebApp\DataAccess\obj\Debug\DataAccess.pdb
-C:\Users\danpo\Desktop\WebApp\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\danpo\Desktop\WebApp\DataAccess\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Users\danpo\Desktop\WebApp\DataAccess\bin\Debug\System.Web.Helpers.dll
 C:\Users\danpo\Desktop\WebApp\DataAccess\bin\Debug\System.Web.Mvc.dll
@@ -21,3 +20,4 @@ C:\Users\danpo\Desktop\WebApp\DataAccess\bin\Debug\System.Web.Razor.xml
 C:\Users\danpo\Desktop\WebApp\DataAccess\bin\Debug\System.Web.WebPages.xml
 C:\Users\danpo\Desktop\WebApp\DataAccess\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\danpo\Desktop\WebApp\DataAccess\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\danpo\Desktop\WebApp\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
