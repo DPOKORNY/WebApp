@@ -96,3 +96,7 @@ C:\Users\danpo\Desktop\WebApp\WebApp\bin\System.Web.Mvc.xml
 C:\Users\danpo\Desktop\WebApp\WebApp\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
 C:\Users\danpo\Desktop\WebApp\WebApp\obj\Debug\WebApp.dll
 C:\Users\danpo\Desktop\WebApp\WebApp\obj\Debug\WebApp.pdb
+C:\Users\danpo\Desktop\WebApp\WebApp\bin\NHibernate.dll
+C:\Users\danpo\Desktop\WebApp\WebApp\bin\Iesi.Collections.dll
+C:\Users\danpo\Desktop\WebApp\WebApp\bin\NHibernate.xml
+C:\Users\danpo\Desktop\WebApp\WebApp\bin\Iesi.Collections.xml
